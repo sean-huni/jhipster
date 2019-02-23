@@ -1,0 +1,35 @@
+{
+    "generator-jhipster": {
+        "promptValues": {
+            "packageName": "xyz.tag"
+        },
+        "jhipsterVersion": "5.8.1",
+        "applicationType": "monolith",
+        "baseName": "jhipster",
+        "packageName": "xyz.tag",
+        "packageFolder": "xyz/tag",
+        "serverPort": "8080",
+        "authenticationType": "jwt",
+        "cacheProvider": "ehcache",
+        "enableHibernateCache": true,
+        "websocket": false,
+        "databaseType": "sql",
+        "devDatabaseType": "h2Memory",
+        "prodDatabaseType": "mariadb",
+        "searchEngine": false,
+        "messageBroker": false,
+        "serviceDiscoveryType": false,
+        "buildTool": "gradle",
+        "enableSwaggerCodegen": false,
+        "jwtSecretKey": "ZDNmYjEyZmQ5NmVjMzMyZWIxNzg1MjM5ZDFhNmQ1N2I1NGM5YWFjODczYWViYTM3NTQxZDBlMzE5NDU3NDI5MmFiYTgyNjg1MjlhYTU1YmJiMzUzOTcwYmYwMjc2MmQzNjM4MzIwYWZlYTA5YzczNzU1MTZiYjc5NGYxOWE1YzM=",
+        "clientFramework": "angularX",
+        "useSass": false,
+        "clientPackageManager": "npm",
+        "testFrameworks": [],
+        "jhiPrefix": "jhi",
+        "entitySuffix": "",
+        "dtoSuffix": "DTO",
+        "otherModules": [],
+        "enableTranslation": false
+    }
+}
