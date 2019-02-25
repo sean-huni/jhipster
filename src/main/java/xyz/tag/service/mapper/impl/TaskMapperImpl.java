@@ -42,11 +42,11 @@ public class TaskMapperImpl implements TaskMapper {
 
     @Override
     public List<Task> toEntity(List<TaskDTO> dtoList) {
-        return dtoList.stream().map(taskDTO -> toEntity(taskDTO)).collect(Collectors.toList());
+        return dtoList.stream().map(this::toEntity).collect(Collectors.toList());
     }
 
     @Override
     public List<TaskDTO> toDto(List<Task> entityList) {
-        return entityList.stream().map(task -> toDto(task)).collect(Collectors.toList());
+        return entityList.stream().map(this::toDto).collect(Collectors.toList());
     }
 }
